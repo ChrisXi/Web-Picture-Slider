@@ -1,0 +1,84 @@
+div#picslidercontainer {
+	position: relative;
+	overflow: hidden;
+
+	width: 85%;
+	
+	margin: auto;
+
+	border: solid 10px;
+	
+}
+div#picsliderslideshow {
+	width: 100%;
+	height:100%;
+}
+div#picsliderslideshow img {
+	width: 100%;
+	height: 100%;
+}
+div#picsliderpager {
+	position: absolute;
+	text-align: center;
+
+	width:100%;
+
+	top: 0;
+	left: 0;
+
+	margin-top: 48%; 
+
+	background: rgba(0,0,0,.5);
+
+	z-index: 1000;
+	opacity: 0;
+
+	transition: all .5s ease-in-out 0s;
+}
+img#picsliderprev {
+	position: absolute;
+
+	width:13%;
+
+	top: 0;
+	left: 0;
+
+	margin-left: 5%;
+	margin-top: 27%;
+
+	z-index: 1000;
+	opacity: 0.2;
+}
+img#picslidernext {
+	position: absolute;
+
+	width: 13%;
+	
+	top: 0;
+	right: 0;
+
+	margin-right: 5%;
+	margin-top: 27%; 
+
+	z-index: 1000;
+	opacity: 0.2;
+}
+div#picsliderpager img {
+	margin: 1% 1%;
+	opacity: 0.3;
+	transition: all .5s ease-in-out 0s;
+}
+div#picsliderpager img:hover {
+	opacity: 1;
+	z-index: 100;
+	transform: scale(1.05);
+}
+div#picsliderpager:hover{
+	opacity: 1;
+}
+div#picsliderprev:hover{
+	opacity: 0.7;
+}
+div#picslidernext:hover{
+	opacity: 0.7;
+}
