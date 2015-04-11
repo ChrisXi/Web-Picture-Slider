@@ -1,4 +1,4 @@
-div#picslidercontainer {
+div#picslider_container {
 	position: relative;
 	overflow: hidden;
 
@@ -9,17 +9,16 @@ div#picslidercontainer {
 	border: solid 10px;
 	
 }
-div#picsliderslideshow {
+div#picslider_slideshow {
 	width: 100%;
 	height:100%;
 }
-div#picsliderslideshow img {
+div#picslider_slideshow img {
 	width: 100%;
 	height: 100%;
 }
-div#picsliderpager {
+div#picslider_pager {
 	position: absolute;
-	text-align: center;
 
 	width:100%;
 
@@ -29,13 +28,13 @@ div#picsliderpager {
 	margin-top: 48%; 
 
 	background: rgba(0,0,0,.5);
-
+	text-align: center;
 	z-index: 1000;
 	opacity: 0;
 
 	transition: all .5s ease-in-out 0s;
 }
-img#picsliderprev {
+img#picslider_prev {
 	position: absolute;
 
 	width:13%;
@@ -49,7 +48,7 @@ img#picsliderprev {
 	z-index: 1000;
 	opacity: 0.2;
 }
-img#picslidernext {
+img#picslider_next {
 	position: absolute;
 
 	width: 13%;
@@ -63,22 +62,22 @@ img#picslidernext {
 	z-index: 1000;
 	opacity: 0.2;
 }
-div#picsliderpager img {
+div#picslider_pager img {
 	margin: 1% 1%;
 	opacity: 0.3;
 	transition: all .5s ease-in-out 0s;
 }
-div#picsliderpager img:hover {
+div#picslider_pager img:hover {
 	opacity: 1;
 	z-index: 100;
 	transform: scale(1.05);
 }
-div#picsliderpager:hover{
+div#picslider_pager:hover{
 	opacity: 1;
 }
-div#picsliderprev:hover{
+img#picslider_prev:hover{
 	opacity: 0.7;
 }
-div#picslidernext:hover{
+img#picslider_next:hover{
 	opacity: 0.7;
 }
