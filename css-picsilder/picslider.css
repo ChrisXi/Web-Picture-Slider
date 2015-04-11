@@ -3,6 +3,7 @@ div#picslider_container {
 	overflow: hidden;
 
 	width: 85%;
+	max-width: 800px;
 	
 	margin: auto;
 
